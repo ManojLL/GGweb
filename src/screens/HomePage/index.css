@@ -13,15 +13,17 @@
     color: white;
 }
 .main-one{
-    font-size: 3.4rem;
+    font-size: 3.5rem;
     color: #FFCC54;
     font-weight: bold;
+    letter-spacing: -0.1rem;
 }
 .main-two{
-    font-size: 4.7rem;
-    margin-top: -2rem;
+    font-size: 5rem;
+    margin-top: -2.5rem;
     color: #FFCC54;
     font-weight: bold;
+    letter-spacing: -0.2rem;
 }
 
 p{
@@ -56,3 +58,4 @@ p{
     font-size: 2rem;
     color: #FFCC54;
 }
+

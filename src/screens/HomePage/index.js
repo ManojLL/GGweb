@@ -2,6 +2,7 @@ import React from "react";
 import './index.css';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
+import ScrollImage from "./components/ScrollImage/ScrollImage";
 import PartnerCard from "./components/PartnerCard/PartnerCard";
 import TeamCard from "./components/TeamCard/TeamCard";
 import RaritySection from "./components/Rarity/RaritySection";
@@ -76,9 +77,10 @@ function HomePage() {
               <div className="column is-half p-6">
                 <div class="card">
                   <div class="card-image">
-                    <figure class="image is-3by4">
+                    {/* <figure class="image is-3by4">
                       <img src="https://media2.giphy.com/media/MdSVo8YEqmm2rxm5ME/200.gif" alt="Placeholder image"/>
-                    </figure>
+                    </figure> */}
+                    <ScrollImage/>
                   </div>
                 </div>
               </div>

@@ -14,10 +14,10 @@ function PartnerCard(){
                     <p>United by a common goal, GCF is a family shared commitment to a sustainable 
                         future for all giraffe populations in the wild is governed by a Memorandum of Understanding.</p>
                         <div className="buttons mt-6">
-                    <a className="button is-warning has-text-weight-bold p-5">
+                    <a className="button is-warning has-text-weight-bold p-4">
                       <span>Explore</span>
                     </a>
-                    <a className="button is-white is-outlined ml-4 has-text-weight-bold p-5">
+                    <a className="button is-white is-outlined ml-2 has-text-weight-bold p-4">
                       <span>Our Partnership</span>
                     </a>
                   </div>

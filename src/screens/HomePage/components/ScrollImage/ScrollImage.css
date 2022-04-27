@@ -1,0 +1,37 @@
+.scrolling-image-container {
+    overflow: hidden;
+    max-height: 58.625rem;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translatey(0);
+    }
+    100% {
+      transform: translatey(-58.625rem);
+    }
+  }
+
+  .scrolling-image {
+    background: url("./../../../../images/scrollnew.png");
+    background-repeat: repeat-y;
+    height: 117.25rem;
+    width: 36.5;
+    animation: slide 5s infinite linear;
+  }
+
+  /* @keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-3840px);
+    }
+  }
+
+  .scrolling-image {
+    background: url("./../../../../images/scrollnew.png") repeat-x;
+    height: 750px;
+    width: 7680px;
+    animation: slide 3s linear infinite;
+  } */
