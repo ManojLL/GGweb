@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    .main-one{
+        font-size: 2.1rem !important;
+    }
+    .main-two{
+        font-size: 2.9rem !important;
+        margin-top: -1.5rem !important;
+    }
+  }
+
+.main-top{
+    font-weight: bold;
+    color: white;
+}
+.main-one{
+    font-size: 3.4rem;
+    color: #FFCC54;
+    font-weight: bold;
+}
+.main-two{
+    font-size: 4.7rem;
+    margin-top: -2rem;
+    color: #FFCC54;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+}
+
+.title{
+    font-size: 3rem !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.subtitle{
+    font-size: 1rem !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.main-para{
+    color: #888888 !important;
+}
+
+.hero{
+    background-color: #0A141C;
+}
+
+.card{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.email-text{
+    font-size: 2rem;
+    color: #FFCC54;
+}
