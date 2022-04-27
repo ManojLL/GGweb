@@ -1,0 +1,19 @@
+.teamcard{
+    margin: 5rem;
+    transition: 0.5s;
+}
+
+.teamcard:hover{
+    -webkit-transform: translateY(-0.5rem);
+    transform: translateY(-0.5rem);
+}
+
+li{
+    color: white !important;
+}
+
+.is-rounded{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

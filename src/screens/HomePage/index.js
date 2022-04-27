@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import PartnerCard from "./components/PartnerCard/PartnerCard";
 import TeamCard from "./components/TeamCard/TeamCard";
+import RaritySection from "./components/Rarity/RaritySection";
 import FAQ from "./components/FAQ/FAQ";
 import giraffe from '../../images/giraffe.png';
 import { Container } from "@material-ui/core";
@@ -118,8 +119,8 @@ function HomePage() {
           <div className="container has-text-centered my-6">
             <p className="subtitle">TIP OF THE ICEBERG!</p>
             <p className="title">Rarity</p>
-            <div>
-              {/* rarity component */}
+            <div className="container m-6">
+              <RaritySection/>
             </div>
           </div>
         </div>
@@ -179,7 +180,7 @@ function HomePage() {
           </div>
           <div className="container px-6 pb-6">
             <div className="columns is-vcentered">
-              <div className="column is-half has-text-left">
+              <div className="column is-half has-text-left has-text-centered-mobile">
                 <p className="subtitle">DO YOU HAVE SOMETHING FOR US?</p>
                 <p className="title">Contact Us</p>
 
@@ -195,7 +196,7 @@ function HomePage() {
                   </p>
                 </div>
               </div>
-              <div className="column is-half has-text-right">
+              <div className="column is-half has-text-right has-text-centered-mobile">
                 <p className="subtitle">SUBSCRIBE FOR THE GG LATEST NEWS</p>
                 <p className="title">Newsletter</p>
 
