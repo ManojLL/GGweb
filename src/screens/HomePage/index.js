@@ -4,6 +4,8 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import ScrollImage from "./components/ScrollImage/ScrollImage";
 import PartnerCard from "./components/PartnerCard/PartnerCard";
+import TimelineSection from "./components/Timeline/Timeline";
+import BulmaTimeline from "./components/Timeline/BulmaTimeline";
 import TeamCard from "./components/TeamCard/TeamCard";
 import RaritySection from "./components/Rarity/RaritySection";
 import FAQ from "./components/FAQ/FAQ";
@@ -95,8 +97,8 @@ function HomePage() {
           <div className="container has-text-centered my-6">
             <p className="subtitle">FIRST GEN COLLECTION</p>
             <p className="title">Roadmap</p>
-            <div>
-              {/* timeline component */}
+            <div className="has-text-left">
+              <TimelineSection/>
             </div>
           </div>
         </div>
