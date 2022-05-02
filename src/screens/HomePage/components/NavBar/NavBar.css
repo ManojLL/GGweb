@@ -1,5 +1,6 @@
 .navbar{
-    background-color: #0A141C !important;
+    /* background-color: #0A141C !important; */
+    background-color: rgba(10,20,28,0.5) !important;
 }
 
 .navbar-item img{

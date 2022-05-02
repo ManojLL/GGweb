@@ -8,6 +8,12 @@
     }
   }
 
+.landing{
+    background-image: url("./../../images/tree_dark.png");
+    background-size: cover;
+    background-position: center;
+}
+
 .main-top{
     font-weight: bold;
     color: white;
