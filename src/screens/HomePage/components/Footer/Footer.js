@@ -9,50 +9,40 @@ function Footer(){
                     <p className="title">Goofy Giraffes</p>
                     <p>Goofy Giraffes are a set of animals that mutated <br/>to have human-like traits while still maintaining <br/>the appearance of a Giraffe. </p>
                 </div>
-                <div className="column is-half has-text-right">
-                    <div className="columns is-mobile">
-                        <div className="column">
-                            <p className="subtitle">Roadmap</p>
-                        </div>
-                        <div className="column">
-                            <p className="subtitle">Partners</p>
-                        </div>
-                        <div className="column">
-                            <p className="subtitle">Rarity</p>
-                        </div>
-                        <div className="column">
-                            <p className="subtitle">Team</p>
-                        </div>
-                    </div>
+                <div className="column is-half has-text-right has-text-centered-mobile">
+                    <a><p className="subtitle link py-2">Roadmap</p></a>
+                    <a><p className="subtitle link py-2">Partners</p></a>
+                    <a><p className="subtitle link py-2">Rarity</p></a>
+                    <a><p className="subtitle link py-2">Team</p></a>
                 </div>
             </div>
-            <div className="mb-6 has-text-left mt-6">
-                <span className="icon mr-6">
+            <div className="mb-6 has-text-left has-text-centered-mobile mt-6">
+                <a className="icon link mr-6">
                     <li class="fab fa-twitter fa-2x"></li>
-                </span>
-                <span className="icon mr-6">
+                </a>
+                <a className="icon link mr-6">
                     <li class="fab fa-instagram fa-2x"></li>
-                </span>
-                <span className="icon mr-6">
+                </a>
+                <a className="icon link mr-6">
                     <li class="fab fa-discord fa-2x"></li>
-                </span>
-                <span className="icon">
+                </a>
+                <a className="icon link">
                     <li class="fab fa-facebook fa-2x"></li>
-                </span>
+                </a>
             </div>
             <hr/>
 
             <div className="columns my-4">
-                <div className="column is-two-thirds">
+                <div className="column is-two-thirds has-text-centered-mobile">
                    © 2022 Goofy Giraffes | All Rights Reserved | Designed &n Developed by VOR 
                 </div>
-                <div className="column has-text-right">
+                <div className="column has-text-right has-text-centered-mobile">
                     Privacy Policy
                 </div>
-                <div className="column has-text-right">
+                <div className="column has-text-right has-text-centered-mobile">
                     Terms of Use
                 </div>
-                <div className="column has-text-right">
+                <div className="column has-text-right has-text-centered-mobile">
                     Cookie Policy
                 </div>
             </div>

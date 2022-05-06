@@ -81,3 +81,11 @@ p{
     margin-left: 20%;
 }
 
+.is-warning{
+    background-color: #FFCC54 !important;
+}
+
+.is-warning:hover{
+    background-color: white !important;
+    color: black !important;
+}

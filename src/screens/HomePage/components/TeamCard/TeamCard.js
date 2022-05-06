@@ -15,15 +15,15 @@ function TeamCard(){
                 <p className="title">NMZ</p>
                 <p>The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.</p>
                 <div className="my-4">
-                    <span className="icon m-2">
+                    <a><span className="icon link m-2">
                         <li class="fab fa-discord fa-2x"></li>
-                    </span>
-                    <span className="icon m-2">
+                    </span></a>
+                    <a><span className="icon link m-2">
                         <li class="fab fa-twitter fa-2x"></li>
-                    </span>
-                    <span className="icon m-2">
+                    </span></a>
+                    <a><span className="icon link m-2">
                         <li class="fab fa-linkedin fa-2x"></li>
-                    </span>
+                    </span></a>
                 </div>
         </div>
     )

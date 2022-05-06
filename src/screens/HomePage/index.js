@@ -66,7 +66,7 @@ function HomePage() {
       </section>
 
       {/* goofyverse section */}
-      <section className="hero">
+      <section className="hero" id="goofyverse">
         <div className="hero-body">
           <div className="container center-container">
             <div className="columns is-vcentered">
@@ -101,7 +101,7 @@ function HomePage() {
       </section>
 
       {/* roadmap secgtion */}
-      <section className="hero">
+      <section className="hero" id="roadmap">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">FIRST GEN COLLECTION</p>
@@ -114,7 +114,7 @@ function HomePage() {
       </section>
 
       {/* partners secgtion */}
-      <section className="hero">
+      <section className="hero" id="partners">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">ITS NOT JUST US</p>
@@ -127,7 +127,7 @@ function HomePage() {
       </section>
 
       {/* rarity secgtion */}
-      <section className="hero">
+      <section className="hero" id="rarity">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">TIP OF THE ICEBERG!</p>
@@ -139,8 +139,8 @@ function HomePage() {
         </div>
       </section>
 
-      {/* theam secgtion */}
-      <section className="hero">
+      {/* team secgtion */}
+      <section className="hero" id="team">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">ROLES BEHIND THE SCENE</p>
@@ -190,7 +190,7 @@ function HomePage() {
       </section>
 
       {/* faq secgtion */}
-      <section className="hero">
+      <section className="hero" id="faq">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">THINGS THAT YOU WANT TO KNOW</p>
@@ -209,7 +209,7 @@ function HomePage() {
                   <p className="email-text">
                     <span className="icon-text">
                       <span className="icon mr-5">
-                        <i class="fa fa-envelope fa-lg"></i>
+                        <i class="fa fa-envelope"></i>  {/*fa-lg*/}
                       </span>
                     <span>
                       info@goofygiraffes.io</span>

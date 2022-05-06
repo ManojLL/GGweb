@@ -7,7 +7,7 @@ function NavBar(){
         <nav className="navbar is-black p-4 is-fixed-top">
             <div className="container center-container">
                 <div className="navbar-brand">
-                    <a class="navbar-item" href="https://bulma.io">
+                    <a class="navbar-item" href="#">
                         <img src={logo} width="120" height="37"/>
                     </a>
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navContent">
@@ -36,8 +36,8 @@ function NavBar(){
                         <a className="navbar-item nav-text">
                             FAQ
                         </a>
-                        <div className="navbar-item">
-                            <a className="button has-text-weight-bold">
+                        <div className="navbar-item ">
+                            <a className="button has-text-weight-bold nav-button">
                                 Join our Discord
                             </a>
                         </div>

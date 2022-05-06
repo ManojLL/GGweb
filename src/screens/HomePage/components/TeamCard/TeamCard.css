@@ -17,3 +17,12 @@ li{
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+.link{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.link:hover{
+    opacity: 1;
+}
