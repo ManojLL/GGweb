@@ -150,18 +150,7 @@ function HomePage() {
             <div className="container">
               <div className="columns is-multiline">
                 <Fade bottom cascade>
-                    {data.slice(1, 4).map((data)=>{
-                      return(
-                        <div className="column is-one-third">
-                          <div className="container is-centered">
-                            <TeamCard image={data.image} title={data.title} name={data.name} intro={data.intro} discord={data.discord} twitter={data.twitter} linkedin={data.linkedin}/>
-                          </div>
-                        </div>
-                      )
-                    })}
-                </Fade>
-                <Fade bottom cascade>
-                    {data.slice(3).map((data)=>{
+                    {data.map((data)=>{
                       return(
                         <div className="column is-one-third">
                           <div className="container is-centered">
