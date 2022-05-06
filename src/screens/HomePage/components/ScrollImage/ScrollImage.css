@@ -1,6 +1,8 @@
 .scrolling-image-container {
     overflow: hidden;
-    max-height: 58.625rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
   }
 
   @keyframes slide {
@@ -15,8 +17,8 @@
   .scrolling-image {
     background: url("./../../../../images/scrollnew.png");
     background-repeat: repeat-y;
-    height: 117.25rem;
-    width: 36.5;
+    aspect-ratio: 0.25;
+    width: 100%;
     animation: slide 5s infinite linear;
   }
 

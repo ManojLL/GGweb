@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer(){
     return(
-        <div className="container px-6">
+        <div className="container center-container">
             <div className="columns mt-6">
                 <div className="column is-half">
                     <p className="title">Goofy Giraffes</p>

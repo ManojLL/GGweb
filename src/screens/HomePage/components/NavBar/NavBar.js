@@ -5,7 +5,7 @@ import logo from '../../../../images/GoofyGiraffes_logo.png'
 function NavBar(){
     return(
         <nav className="navbar is-black p-4 is-fixed-top">
-            <div className="container">
+            <div className="container center-container">
                 <div className="navbar-brand">
                     <a class="navbar-item" href="https://bulma.io">
                         <img src={logo} width="120" height="37"/>
@@ -18,22 +18,22 @@ function NavBar(){
                 </div>
                 <div className="navbar-menu" id="navContent">
                     <div className="navbar-end">
-                        <a className="navbar-item">
+                        <a className="navbar-item nav-text">
                             Goofyverse
                         </a>
-                        <a className="navbar-item">
+                        <a className="navbar-item nav-text">
                             Roadmap
                         </a>
-                        <a className="navbar-item">
+                        <a className="navbar-item nav-text">
                             Partners
                         </a>
-                        <a className="navbar-item">
+                        <a className="navbar-item nav-text">
                             Rarity
                         </a>
-                        <a className="navbar-item">
+                        <a className="navbar-item nav-text">
                             Team
                         </a>
-                        <a className="navbar-item">
+                        <a className="navbar-item nav-text">
                             FAQ
                         </a>
                         <div className="navbar-item">
