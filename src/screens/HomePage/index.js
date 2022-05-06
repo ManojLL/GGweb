@@ -146,7 +146,7 @@ function HomePage() {
             <p className="subtitle">ROLES BEHIND THE SCENE</p>
             <p className="title">Meet Team</p>
             <div className="container">
-              <div className="columns">
+              <div className="columns is-multiline">
                 <Fade bottom cascade>
                   <div className="column is-one-third">
                     <div className="container is-centered">
@@ -164,8 +164,6 @@ function HomePage() {
                     </div>
                   </div>
                 </Fade>
-              </div>
-              <div className="columns">
                 <Fade bottom cascade>
                   <div className="column is-one-third">
                     <div className="container is-centered">
@@ -211,8 +209,9 @@ function HomePage() {
                       <span className="icon mr-4">
                         <i class="fa fa-envelope"></i>  {/*fa-lg*/}
                       </span>
-                    <span>
-                      info@goofygiraffes.io</span>
+                      <span>
+                      info@goofygiraffes.io
+                      </span>
                     </span>
                   </p>
                 </div>

@@ -89,3 +89,7 @@ p{
     background-color: white !important;
     color: black !important;
 }
+
+.icon-text{
+    display: inline;
+}
