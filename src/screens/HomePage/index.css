@@ -91,5 +91,5 @@ p{
 }
 
 .icon-text{
-    display: inline;
+    display: inline !important;
 }

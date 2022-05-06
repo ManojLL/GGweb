@@ -206,10 +206,10 @@ function HomePage() {
                 <div className="ml-3 mt-6">
                   <p className="email-text">
                     <span className="icon-text">
-                      <span className="icon mr-4">
-                        <i class="fa fa-envelope"></i>  {/*fa-lg*/}
+                      <span className="icon">
+                        <i class="fa fa-envelope fa-lg"></i>  {/*fa-lg*/}
                       </span>
-                      <span>
+                      <span className="mx-4">
                       info@goofygiraffes.io
                       </span>
                     </span>
