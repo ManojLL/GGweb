@@ -107,7 +107,7 @@ function HomePage() {
             <p className="subtitle">FIRST GEN COLLECTION</p>
             <p className="title">Roadmap</p>
             <div className="has-text-left">
-              <TimelineSection/>
+              <BulmaTimeline/>
             </div>
           </div>
         </div>
