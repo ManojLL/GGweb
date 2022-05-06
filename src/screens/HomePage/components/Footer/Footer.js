@@ -33,7 +33,7 @@ function Footer(){
             <hr/>
 
             <div className="columns my-4">
-                <div className="column is-two-thirds has-text-centered-mobile">
+                <div className="column is-three-fifths has-text-centered-mobile">
                    © 2022 Goofy Giraffes | All Rights Reserved | Designed &n Developed by VOR 
                 </div>
                 <div className="column has-text-right has-text-centered-mobile">
