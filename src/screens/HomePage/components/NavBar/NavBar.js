@@ -18,22 +18,22 @@ function NavBar(){
                 </div>
                 <div className="navbar-menu" id="nav-menu">
                     <div className="navbar-end">
-                        <a className="navbar-item nav-text">
+                        <a className="navbar-item nav-text" href="/#goofyverse">
                             Goofyverse
                         </a>
-                        <a className="navbar-item nav-text">
+                        <a className="navbar-item nav-text" href="/#roadmap">
                             Roadmap
                         </a>
-                        <a className="navbar-item nav-text">
+                        <a className="navbar-item nav-text" href="/#partners">
                             Partners
                         </a>
-                        <a className="navbar-item nav-text">
+                        <a className="navbar-item nav-text" href="/#rarity">
                             Rarity
                         </a>
-                        <a className="navbar-item nav-text">
+                        <a className="navbar-item nav-text" href="/#team">
                             Team
                         </a>
-                        <a className="navbar-item nav-text">
+                        <a className="navbar-item nav-text" href="/#faq">
                             FAQ
                         </a>
                         <div className="navbar-item ">

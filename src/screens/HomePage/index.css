@@ -93,3 +93,7 @@ p{
 .icon-text{
     display: inline !important;
 }
+
+html{
+    scroll-behavior: smooth;
+}
