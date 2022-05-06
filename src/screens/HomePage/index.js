@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './index.css';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
@@ -14,8 +14,10 @@ import giraffe from '../../images/Jimmy.png';
 import { Container } from "@material-ui/core";
 import 'animate.css';
 import Fade from 'react-reveal/Fade';
+import data from "./components/TeamCard/Data";
 
 function HomePage() {
+
   return (
     <div>
       {/* landing section */}
@@ -148,38 +150,26 @@ function HomePage() {
             <div className="container">
               <div className="columns is-multiline">
                 <Fade bottom cascade>
-                  <div className="column is-one-third">
-                    <div className="container is-centered">
-                      <TeamCard/>
-                    </div>
-                  </div>
-                  <div className="column is-one-third">
-                    <div className="container is-centered">
-                      <TeamCard/>
-                    </div>
-                  </div>
-                  <div className="column is-one-third">
-                    <div className="container is-centered">
-                      <TeamCard/>
-                    </div>
-                  </div>
+                    {data.slice(1, 4).map((data)=>{
+                      return(
+                        <div className="column is-one-third">
+                          <div className="container is-centered">
+                            <TeamCard image={data.image} title={data.title} name={data.name} intro={data.intro} discord={data.discord} twitter={data.twitter} linkedin={data.linkedin}/>
+                          </div>
+                        </div>
+                      )
+                    })}
                 </Fade>
                 <Fade bottom cascade>
-                  <div className="column is-one-third">
-                    <div className="container is-centered">
-                      <TeamCard/>
-                    </div>
-                  </div>
-                  <div className="column is-one-third">
-                    <div className="container is-centered">
-                      <TeamCard/>
-                    </div>
-                  </div>
-                  <div className="column is-one-third">
-                    <div className="container is-centered">
-                      <TeamCard/>
-                    </div>
-                  </div>
+                    {data.slice(3).map((data)=>{
+                      return(
+                        <div className="column is-one-third">
+                          <div className="container is-centered">
+                            <TeamCard image={data.image} title={data.title} name={data.name} intro={data.intro} discord={data.discord} twitter={data.twitter} linkedin={data.linkedin}/>
+                          </div>
+                        </div>
+                      )
+                    })}
                 </Fade>
               </div>
             </div>
