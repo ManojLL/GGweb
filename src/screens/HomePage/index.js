@@ -15,6 +15,7 @@ import { Container } from "@material-ui/core";
 import 'animate.css';
 import Fade from 'react-reveal/Fade';
 import data from "./components/TeamCard/Data";
+import { Icon } from '@iconify/react';
 
 function HomePage() {
 
@@ -184,14 +185,14 @@ function HomePage() {
 
                 <div className="ml-3 mt-6">
                   <p className="email-text">
-                    <span className="icon-text">
-                      <span className="icon">
+                    <div className="icon-text">
+                      <span className="icon yellow">
                         <i class="fa fa-envelope fa-lg"></i>  {/*fa-lg*/}
                       </span>
                       <span className="mx-4">
                       info@goofygiraffes.io
                       </span>
-                    </span>
+                    </div>
                   </p>
                 </div>
               </div>

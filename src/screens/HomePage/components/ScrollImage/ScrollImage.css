@@ -10,16 +10,16 @@
       transform: translatey(0);
     }
     100% {
-      transform: translatey(-58.625rem);
+      transform: translatey(-50%);
     }
   }
 
   .scrolling-image {
     background: url("./../../../../images/scrollnew.png");
+    background-size: contain;
     background-repeat: repeat-y;
-    aspect-ratio: 0.25;
-    width: 100%;
-    animation: slide 5s infinite linear;
+    aspect-ratio: 0.3113006396588486;
+    animation: slide 10s infinite linear;
   }
 
   /* @keyframes slide {

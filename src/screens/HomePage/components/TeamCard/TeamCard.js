@@ -1,7 +1,6 @@
 import React from "react";
 import './TeamCard.css'
 import '../../index.css'
-import OGY from '../../../../images/ogy.png'
 
 function TeamCard(props){
     return(
