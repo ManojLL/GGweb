@@ -4,18 +4,14 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import ScrollImage from "./components/ScrollImage/ScrollImage";
 import PartnerCard from "./components/PartnerCard/PartnerCard";
-import TimelineSection from "./components/Timeline/Timeline";
 import BulmaTimeline from "./components/Timeline/BulmaTimeline";
-import TeamCard from "./components/TeamCard/TeamCard";
+import TeamSection from "./components/TeamCard/TeamSection";
 import RaritySection from "./components/Rarity/RaritySection";
-import FAQ from "./components/FAQ/FAQ";
 import FAQnew from "./components/FAQ/FAQnew";
 import giraffe from '../../images/Jimmy.png';
 import { Container } from "@material-ui/core";
 import 'animate.css';
 import Fade from 'react-reveal/Fade';
-import data from "./components/TeamCard/Data";
-import { Icon } from '@iconify/react';
 
 function HomePage() {
 
@@ -150,17 +146,7 @@ function HomePage() {
             <p className="title yellow">Meet Team</p>
             <div className="container">
               <div className="columns is-multiline">
-                <Fade bottom cascade>
-                    {data.map((data)=>{
-                      return(
-                        <div className="column is-one-third">
-                          <div className="container is-centered">
-                            <TeamCard image={data.image} title={data.title} name={data.name} intro={data.intro} discord={data.discord} twitter={data.twitter} linkedin={data.linkedin}/>
-                          </div>
-                        </div>
-                      )
-                    })}
-                </Fade>
+                <TeamSection/>
               </div>
             </div>
           </div>
@@ -208,7 +194,7 @@ function HomePage() {
 
                 <div class="field is-grouped mt-6">
                   <p class="control is-expanded">
-                    <input class="input" type="text" placeholder="Your e-mail address"/>
+                    <input class="input email-input" type="text" placeholder="Your e-mail address"/>
                   </p>
                   <p class="control">
                     <a class="button is-warning has-text-weight-bold">

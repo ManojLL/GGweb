@@ -4,27 +4,25 @@ import Faq from "react-faq-component";
 const data = {
     rows: [
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            title: "WHAT'S THE TOTAL SUPPLY OF GIRAFFES?",
+            content: `10,000`,
         },
         {
-            title: "Nunc maximus, magna at ultricies elementum",
-            content:
-                "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
+            title: "WHAT'S THE MINTING PRICE OF A GIRAFFE?",
+            content: `The mint price for the collection is TBA. Initial collection mint price will be lower. It may change along the way.`,
         },
         {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-            Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-            Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-            Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
+            title: "WHAT BLOCKCHAIN DOES THE PROJECT LIVE ON?",
+            content:`Goofieverse (wait whaaat?) will live on the Ethereum Blockchain.`,
         },
         {
-            title: "What is the package version",
-            content: <p>current version is 1.2.1</p>,
+            title: "IS THERE A WHITE-LIST?",
+            content: `Yes, of course. You can earn your own White-List spot by various kinds of contests. We will be hand picking most of them. 
+            However, if it feels like you're spamming, you might end up being muted or kicked from the server.`,
+        },
+        {
+            title: "HOW MANY CAN I MINT?",
+            content: `Max per person is 2 Giraffes.`,
         },
     ],
 };
@@ -34,7 +32,6 @@ const styles = {
     titleTextColor: "blue",
     rowTitleColor: "white",
     rowContentColor: '#FFCC54',
-    rowContentPaddingTop: '20px',
     rowContentPaddingBottom: '20px',
     arrowColor: "white",
 };
