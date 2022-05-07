@@ -8,8 +8,8 @@
     transform: translateY(-0.5rem);
 }
 
-.icon{
-    color: white;
+.white{
+    color: white !important;
 }
 
 .is-rounded{
