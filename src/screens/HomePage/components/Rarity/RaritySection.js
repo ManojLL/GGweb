@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import './Rarity.css';
 import RarityCard from "./RarityCard";
+import data from "./Data";
 
 export default class RaritySection extends Component {
   render() {
@@ -44,30 +45,13 @@ export default class RaritySection extends Component {
       return (
         <div>
           <Slider {...settings}>
-            <div>
-              <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
-            <div>
-                <RarityCard/>
-            </div>
+          {data.map((data)=>{
+                return(
+                  <div>
+                    <RarityCard image={data.image} rarity={data.rarity} name={data.name} info={data.info}/>
+                  </div>
+                )
+            })}
           </Slider>
         </div>
       );

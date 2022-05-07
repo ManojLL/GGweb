@@ -2,17 +2,17 @@ import React from "react";
 import './Rarity.css';
 import OGY from '../../../../images/ogy.png'
 
-function RarityCard(){
+function RarityCard(props){
     return(
         <div className="raritycard m-6">
                 <div className="icon-card">
                     <figure class="image m-5">
-                        <img class="is-rounded" src={OGY}/>
+                        <img class="is-rounded" src={props.image}/>
                     </figure>
                 </div>
-                <p className="subtitle">55% CHANCE DROP</p>
-                <p className="title">WW</p>
-                <p>The most common goofy in the First Gen. As you may know, once they were a furious army.</p>
+                <p className="subtitle">{props.rarity}</p>
+                <p className="title">{props.name}</p>
+                <p>{props.info}</p>
         </div>
     )
 }
