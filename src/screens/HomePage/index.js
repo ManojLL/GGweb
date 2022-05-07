@@ -186,12 +186,18 @@ function HomePage() {
                 <div className="ml-3 mt-6">
                   <p className="email-text">
                     <div className="icon-text">
-                      <span className="icon yellow">
-                        <i class="fa fa-envelope fa-lg"></i>  {/*fa-lg*/}
-                      </span>
-                      <span className="mx-4">
-                      info@goofygiraffes.io
-                      </span>
+                      <div className="columns">
+                        <div className="column is-2">
+                          <div className="icon">
+                            <i class="fa fa-envelope fa-lg"></i>  {/*fa-lg*/}
+                          </div>
+                        </div>
+                        <div className="column">
+                          <div className="">
+                            info@goofygiraffes.io
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </p>
                 </div>
