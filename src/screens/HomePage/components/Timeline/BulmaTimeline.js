@@ -74,7 +74,7 @@ function BulmaTimeline(){
                 <p className="milestone">Post-Mint</p>
                 <p>Stake your NFTs of selected projects with us to obtain the liquidity you need for a quick flip.
                     The list of qualifying projects will be announced, and updated weekly. Holders of Goofy Giraffes will be able to stake 
-                    their NFTs to obtain 50% of the current floor price in ETH.</p>
+                    their NFTs to obtain 50% of the current floor price in ETH.</p><br/>
 
                 <p>i.e.: If you own an NFT of a project which is eligible for staking, and the floor price of that project is 
                     currently at 0.5 ETH, you will be eligible to obtain up to 0.25 ETH, to be paid within a fixed period for 0% interest.</p>
