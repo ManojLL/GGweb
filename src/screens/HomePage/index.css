@@ -1,14 +1,17 @@
 @media screen and (max-width: 768px) {
     .main-one{
-        font-size: 2rem !important;
+        font-size: 8.5vw !important;
     }
     .main-two{
-        font-size: 2.8rem !important;
+        font-size: 12vw !important;
         margin-top: -1.5rem !important;
     }
     .main-image{
         max-width: 98% !important;
         margin-left: 1% !important;
+    }
+    .title-res{
+        font-size: 13vw !important;
     }
   }
 
@@ -40,10 +43,11 @@ p{
     color: white;
 }
 
-.title{
-    font-size: 3rem !important;
+.title-res{
+    font-size: 3rem;
     color: white !important;
     font-weight: bold !important;
+    margin-top: -1.25rem !important;
 }
 
 .yellow{

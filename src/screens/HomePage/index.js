@@ -72,7 +72,7 @@ function HomePage() {
               <div className="column is-half">
                 <Fade bottom>
                   <p className="subtitle">ABOUT OUR PROJECT</p>
-                  <p className="title yellow">Goofieverse</p>
+                  <p className="title-res yellow">Goofieverse</p>
                   <p>Goofy Giraffes are a set of animals that mutated to have human-like traits while 
                     still maintaining the appearance of a Giraffe. They take traits of characters of 
                     famous TV shows while infiltrating their universe to spread their kind.
@@ -104,7 +104,7 @@ function HomePage() {
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">FIRST GEN COLLECTION</p>
-            <p className="title yellow">Roadmap</p>
+            <p className="title-res yellow">Roadmap</p>
             <div className="has-text-left">
               <BulmaTimeline/>
             </div>
@@ -117,7 +117,7 @@ function HomePage() {
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">ITS NOT JUST US</p>
-            <p className="title yellow">Partners</p>
+            <p className="title-res yellow">Partners</p>
             <div className="container">
               <PartnerCard/>
             </div>
@@ -130,7 +130,7 @@ function HomePage() {
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">TIP OF THE ICEBERG!</p>
-            <p className="title yellow">Rarity</p>
+            <p className="title-res yellow">Rarity</p>
             <div className="container m-6">
               <RaritySection/>
             </div>
@@ -143,7 +143,7 @@ function HomePage() {
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">ROLES BEHIND THE SCENE</p>
-            <p className="title yellow">Meet Team</p>
+            <p className="title-res yellow">Meet Team</p>
             <div className="container">
               <div className="columns is-multiline">
                 <TeamSection/>
@@ -158,7 +158,7 @@ function HomePage() {
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">THINGS THAT YOU WANT TO KNOW</p>
-            <p className="title yellow">Freaquently asked Questions</p>
+            <p className="title-res yellow">Freaquently asked Questions</p>
             <div className="container has-text-left py-6 mt-6">
               <FAQnew/>
             </div>
@@ -167,7 +167,7 @@ function HomePage() {
             <div className="columns is-vcentered">
               <div className="column is-half has-text-left has-text-centered-mobile">
                 <p className="subtitle">DO YOU HAVE SOMETHING FOR US?</p>
-                <p className="title">Contact Us</p>
+                <p className="title-res">Contact Us</p>
 
                 <div className="ml-3 mt-6">
                   <p className="email-text">
@@ -190,7 +190,7 @@ function HomePage() {
               </div>
               <div className="column is-half has-text-right has-text-centered-mobile">
                 <p className="subtitle">SUBSCRIBE FOR THE GG LATEST NEWS</p>
-                <p className="title">Newsletter</p>
+                <p className="title-res">Newsletter</p>
 
                 <div class="field is-grouped mt-6">
                   <p class="control is-expanded">
