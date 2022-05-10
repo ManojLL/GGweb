@@ -172,7 +172,7 @@ function HomePage() {
                 <div className="ml-3 mt-6">
                   <p className="email-text">
                     <div className="icon-text">
-                      <div className="columns">
+                      <div className="columns is-mobile">
                         <div className="column is-2">
                           <div className="icon">
                             <i class="fa fa-envelope fa-lg"></i>  {/*fa-lg*/}

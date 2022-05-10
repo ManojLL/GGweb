@@ -11,7 +11,7 @@ function RarityCard(props){
                     </figure>
                 </div>
                 <p className="subtitle">{props.rarity}</p>
-                <p className="title">{props.name}</p>
+                <p className="title-res">{props.name}</p>
                 <p>{props.info}</p>
         </div>
     )

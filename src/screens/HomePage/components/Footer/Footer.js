@@ -6,7 +6,7 @@ function Footer(){
         <div className="container center-container">
             <div className="columns mt-6">
                 <div className="column is-half">
-                    <p className="title">Goofy Giraffes</p>
+                    <p className="title-res">Goofy Giraffes</p>
                     <p>Goofy Giraffes are a set of animals that mutated <br/>to have human-like traits while still maintaining <br/>the appearance of a Giraffe. </p>
                 </div>
                 <div className="column is-half has-text-right has-text-centered-mobile">

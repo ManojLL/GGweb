@@ -11,7 +11,7 @@ function TeamCard(props){
                     </figure>
                 </div>
                 <p className="subtitle">{props.title}</p>
-                <p className="title">{props.name}</p>
+                <p className="title-res">{props.name}</p>
                 <p>{props.intro}</p>
                 <div className="my-4">
                     <a href={props.discord}><span className="icon white link m-2">
