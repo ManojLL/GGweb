@@ -1,10 +1,10 @@
 @media screen and (max-width: 768px) {
     .main-one{
-        font-size: 8.5vw !important;
+        font-size: 7.5vw !important;
     }
     .main-two{
-        font-size: 12vw !important;
-        margin-top: -1.5rem !important;
+        font-size: 10vw !important;
+        margin-top: -1rem !important;
     }
     .main-image{
         max-width: 98% !important;

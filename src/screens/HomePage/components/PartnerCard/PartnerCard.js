@@ -13,7 +13,7 @@ function PartnerCard(){
                 <div className="column is-half p-6 has-text-left">
                     <p>United by a common goal, GCF is a family shared commitment to a sustainable 
                         future for all giraffe populations in the wild is governed by a Memorandum of Understanding.</p>
-                    <div className="columns is-mobile mt-6">
+                    <div className="columns mt-6">
                         <div className="column is-3">
                             <a className="button is-warning has-text-weight-bold">
                                 <span>Explore</span>

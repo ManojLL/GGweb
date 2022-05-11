@@ -169,13 +169,26 @@ function HomePage() {
                 <p className="subtitle">DO YOU HAVE SOMETHING FOR US?</p>
                 <p className="title-res">Contact Us</p>
 
-                <div className="ml-3 mt-6">
-                  <p className="email-text">
+                <div className="columns is-vcentered mt-4">
+                  <div className="column is-1 has-text-left has-text-centered-mobile">
+                    <div className="icon yellow m-4">
+                      <i class="fa fa-envelope fa-3x"></i>  {/*fa-lg*/}
+                    </div>
+                  </div>
+                  <div className="column has-text-left has-text-centered-mobile">
+                    <div className="email-text mx-4">
+                      info@goofygiraffes.io
+                    </div>
+                  </div>
+                </div>
+
+                {/* <div className="mt-6">
+                  <p className="email-text has-text-centered-mobile">
                     <div className="icon-text">
-                      <div className="columns is-mobile">
+                      <div className="columns">
                         <div className="column is-2">
-                          <div className="icon">
-                            <i class="fa fa-envelope fa-lg"></i>  {/*fa-lg*/}
+                          <div className="icon ml-3">
+                            <i class="fa fa-envelope"></i> 
                           </div>
                         </div>
                         <div className="column">
@@ -186,7 +199,7 @@ function HomePage() {
                       </div>
                     </div>
                   </p>
-                </div>
+                </div> */}
               </div>
               <div className="column is-half has-text-right has-text-centered-mobile">
                 <p className="subtitle">SUBSCRIBE FOR THE GG LATEST NEWS</p>

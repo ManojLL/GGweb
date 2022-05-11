@@ -17,3 +17,9 @@ li{
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+@media screen and (max-width: 768px) {
+    .mobile-special{
+        font-size: 10vw !important;
+    }
+  }
