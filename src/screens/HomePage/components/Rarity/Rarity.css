@@ -20,7 +20,7 @@ li{
 
 @media screen and (max-width: 768px) {
     .mobile-special{
-        font-size: 10vw !important;
+        font-size: 9vw !important;
     }
     .slick-arrow.slick-next {
         right: 50px;
