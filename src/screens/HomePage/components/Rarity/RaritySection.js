@@ -7,15 +7,15 @@ import data from "./Data";
 export default class RaritySection extends Component {
   render() {
     var settings = {
+        dots: true,
+        centerMode: true,
         infinite: false,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplay: true,
-        speed: 1000,
-        autoplaySpeed: 2000,
-        cssEase: "linear",
+        speed: 500,
+        cssEase: "ease-in-out",
         responsive: [
           {
             breakpoint: 1024,
