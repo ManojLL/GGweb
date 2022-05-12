@@ -22,6 +22,12 @@ li{
     .mobile-special{
         font-size: 10vw !important;
     }
+    .slick-arrow.slick-next {
+        right: -70px;
+    }
+    .slick-arrow.slick-prev {
+        left: -70px;
+    }
   }
 
 .slick-list{
