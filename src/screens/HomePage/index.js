@@ -131,7 +131,7 @@ function HomePage() {
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">TIP OF THE ICEBERG!</p>
             <p className="title-res yellow">Rarity</p>
-            <div className="">
+            <div className="mx-6">
               <RaritySection/>
             </div>
           </div>
