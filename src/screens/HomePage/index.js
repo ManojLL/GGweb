@@ -36,18 +36,26 @@ function HomePage() {
                     <p className="paragraph mt-4">Goofy Giraffes are a set of animals that mutated to have human-like traits from your favorite TV Show while still maintaining the appearance of a Giraffe. 
                     </p>
                     <div className="buttons mt-6">
-                      <a className="button is-warning has-text-weight-bold p-5 px-6">
-                        <span class="icon">
-                          <i class="fab fa-discord"></i>
-                        </span>
-                        <span>Discord</span>
-                      </a>
-                      <a className="button is-white is-outlined ml-4 has-text-weight-bold p-5 px-6">
-                        <span class="icon">
-                          <i class="fab fa-twitter"></i>
-                        </span>
-                        <span>Twitter</span>
-                      </a>
+                      
+                      
+                    </div>
+                    <div className="columns">
+                      <div className="column is-4">
+                        <a className="button is-warning has-text-weight-bold p-5 px-6">
+                          <span class="icon">
+                            <i class="fab fa-discord"></i>
+                          </span>
+                          <span>Discord</span>
+                        </a>
+                      </div>
+                      <div className="column">
+                        <a className="button is-white is-outlined ml-4 has-text-weight-bold p-5 px-6">
+                          <span class="icon">
+                            <i class="fab fa-twitter"></i>
+                          </span>
+                          <span>Twitter</span>
+                        </a>
+                      </div>
                     </div>
                   </Fade>
                 </div>
