@@ -30,7 +30,11 @@ li{
     }
   }
 
-.slider .slick-list{
+.slider{
+    overflow: visible;
+}
+
+.slick-list{
     overflow: visible;
 }
 
