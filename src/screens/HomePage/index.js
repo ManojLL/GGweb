@@ -35,11 +35,7 @@ function HomePage() {
                   <Fade bottom>
                     <p className="paragraph mt-4">Goofy Giraffes are a set of animals that mutated to have human-like traits from your favorite TV Show while still maintaining the appearance of a Giraffe. 
                     </p>
-                    <div className="buttons mt-6">
-                      
-                      
-                    </div>
-                    <div className="columns">
+                    <div className="columns mt-4">
                       <div className="column is-4">
                         <a className="button is-warning has-text-weight-bold p-5 px-6">
                           <span class="icon">
