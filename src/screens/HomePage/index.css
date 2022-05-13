@@ -20,6 +20,9 @@
         max-width: 100% !important;
         margin-left: 0% !important;
     }
+    .email-input{
+        max-width: none !important;
+    }
   }
 
 .landing{
