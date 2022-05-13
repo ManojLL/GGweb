@@ -49,7 +49,7 @@ function HomePage() {
                         </a>
                       </div>
                       <div className="column">
-                        <a className="button is-white is-outlined ml-4 has-text-weight-bold p-5 px-6">
+                        <a className="button is-white is-outlined has-text-weight-bold p-5 px-6">
                           <span class="icon">
                             <i class="fab fa-twitter"></i>
                           </span>
