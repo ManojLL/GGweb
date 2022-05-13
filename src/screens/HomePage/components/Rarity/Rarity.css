@@ -23,10 +23,10 @@ li{
         font-size: 9vw !important;
     }
     .slick-arrow.slick-next {
-        right: 50px;
+        right: 1rem;
     }
     .slick-arrow.slick-prev {
-        left: 50px;
+        left: 1rem;
     }
   }
 
@@ -53,4 +53,17 @@ li{
 
 .slick-dots li button::before{
     color: white !important;
+}
+
+.slick-disabled{
+    opacity: 0 !important;
+}
+
+.slick-next, .slick-prev{
+    height: 4rem !important;
+    width: 4rem !important;
+}
+
+.slick-next:before, .slick-prev:before{
+    font-size: 4rem !important;
 }

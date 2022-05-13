@@ -4,7 +4,7 @@ import logo from '../../../../images/GoofyGiraffes_logo.png'
 
 function NavBar(){
     return(
-        <nav className="navbar is-black p-4 is-fixed-top" role="navigation" aria-label="main navigation">
+        <nav className="navbar is-black p-4" role="navigation" aria-label="main navigation">
             <div className="container center-container">
                 <div className="navbar-brand">
                     <a class="navbar-item" href="#">
@@ -19,7 +19,7 @@ function NavBar(){
                 <div className="navbar-menu" id="nav-menu">
                     <div className="navbar-end">
                         <a className="navbar-item nav-text" href="/#goofyverse">
-                            Goofyverse
+                            Goofiverse
                         </a>
                         <a className="navbar-item nav-text" href="/#roadmap">
                             Roadmap
@@ -37,7 +37,7 @@ function NavBar(){
                             FAQ
                         </a>
                         <div className="navbar-item ">
-                            <a className="button has-text-weight-bold nav-button">
+                            <a className="button has-text-weight-bold nav-button px-5">
                                 Join our Discord
                             </a>
                         </div>

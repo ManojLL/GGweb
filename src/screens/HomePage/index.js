@@ -18,7 +18,7 @@ function HomePage() {
   return (
     <div>
       {/* landing section */}
-      <section className="hero is-fullheight">
+      <section className="hero">
         <div className="hero-head">
           <NavBar/>
         </div>
@@ -33,16 +33,16 @@ function HomePage() {
                     <p className="main-two">Seven Kingdoms</p>
                   </Fade>
                   <Fade bottom>
-                    <p className="">Goofy Giraffes are a set of animals that mutated to have human-like traits while still maintaining the appearance of a Giraffe. 
+                    <p className="paragraph mt-4">Goofy Giraffes are a set of animals that mutated to have human-like traits from your favorite TV Show while still maintaining the appearance of a Giraffe. 
                     </p>
                     <div className="buttons mt-6">
-                      <a className="button is-warning has-text-weight-bold p-5">
+                      <a className="button is-warning has-text-weight-bold p-5 px-6">
                         <span class="icon">
                           <i class="fab fa-discord"></i>
                         </span>
                         <span>Discord</span>
                       </a>
-                      <a className="button is-white is-outlined ml-4 has-text-weight-bold p-5">
+                      <a className="button is-white is-outlined ml-4 has-text-weight-bold p-5 px-6">
                         <span class="icon">
                           <i class="fab fa-twitter"></i>
                         </span>
@@ -73,12 +73,12 @@ function HomePage() {
                 <Fade bottom>
                   <p className="subtitle">ABOUT OUR PROJECT</p>
                   <p className="title-res yellow">Goofieverse</p>
-                  <p>Goofy Giraffes are a set of animals that mutated to have human-like traits while 
+                  <p className="paragraph">Goofy Giraffes are a set of animals that mutated to have human-like traits while 
                     still maintaining the appearance of a Giraffe. They take traits of characters of 
                     famous TV shows while infiltrating their universe to spread their kind.
                   </p>
                   <br/>
-                  <p>It's everyone's fantasy to be a character of their favourite TV show. Heck, 
+                  <p className="paragraph">It's everyone's fantasy to be a character of their favourite TV show. Heck, 
                     we act like we are part of it! With our goofy avatars, you'll feel like you actually 
                     are a part of it! Stay tuned and alert by joining our discord and following us on our socials! Exciting stuff awaits.
                   </p>
@@ -105,7 +105,7 @@ function HomePage() {
           <div className="container has-text-centered my-6 center-container">
             <p className="subtitle">FIRST GEN COLLECTION</p>
             <p className="title-res yellow">Roadmap</p>
-            <div className="has-text-left">
+            <div className="has-text-left road-margin">
               <BulmaTimeline/>
             </div>
           </div>
@@ -210,7 +210,7 @@ function HomePage() {
                     <input class="input email-input" type="text" placeholder="Your e-mail address"/>
                   </p>
                   <p class="control">
-                    <a class="button is-warning has-text-weight-bold">
+                    <a class="button is-warning has-text-weight-bold px-4">
                       Submit
                     </a>
                   </p>

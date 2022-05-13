@@ -10,7 +10,7 @@ const data=[
         image:OGY,
         title:'FOUNDER',
         name:'NMZ',
-        intro:'The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.',
+        intro:'The Giraffe who started it all. The Leader of the Project',
         discord:'',
         twitter:'',
         linkedin:''
@@ -19,7 +19,7 @@ const data=[
         image:URA,
         title:'THE MARKETING WIZARD',
         name:'URA',
-        intro:'The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.',
+        intro:'The Giraffe who is responsible of bringing the Goofies into the market',
         discord:'',
         twitter:'',
         linkedin:''
@@ -28,7 +28,7 @@ const data=[
         image:ZAN,
         title:'THE ARTIST',
         name:'ZAN',
-        intro:'The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.',
+        intro:'The Legendary Giraffe who draws everything. He’s a wizard with the drawing pen',
         discord:'',
         twitter:'',
         linkedin:''
@@ -37,7 +37,7 @@ const data=[
         image:DMN,
         title:'THE DEVELOPER',
         name:'DMN',
-        intro:'The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.',
+        intro:'The Giraffe who codes everything that you see here',
         discord:'',
         twitter:'',
         linkedin:''
@@ -46,7 +46,7 @@ const data=[
         image:NRG,
         title:'COMMUNITY LEAD',
         name:'NRG',
-        intro:'The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.',
+        intro:'The  Friendly Giraffe who actively communicates with everyone in the community',
         discord:'',
         twitter:'',
         linkedin:''
@@ -55,7 +55,7 @@ const data=[
         image:ASH,
         title:'SOCIAL MEDIA MANAGER',
         name:'ASH',
-        intro:'The Goofiest of all Giraffes. It is he who founded the Goofy Giraffes project.',
+        intro:'The social media pro that does everything related to Social',
         discord:'',
         twitter:'',
         linkedin:''

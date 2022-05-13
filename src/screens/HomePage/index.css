@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     .main-one{
-        font-size: 7.5vw !important;
+        font-size: 10vw !important;
     }
     .main-two{
         font-size: 10vw !important;
@@ -12,6 +12,16 @@
     }
     .title-res{
         font-size: 12vw !important;
+    }
+    .paragraph{
+        margin-right: 0rem !important;
+    }
+    .road-margin{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .email-input{
+        width: 100% !important;
     }
   }
 
@@ -26,17 +36,18 @@
     color: white;
 }
 .main-one{
-    font-size: 3.2rem;
+    font-size: 4rem;
+    margin-top: 1rem;
     color: #FFCC54;
     font-weight: bold;
     letter-spacing: -0.1rem;
 }
 .main-two{
-    font-size: 4.5rem;
-    margin-top: -2.5rem;
+    font-size: 4rem;
+    margin-top: -2rem;
     color: #FFCC54;
     font-weight: bold;
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.1rem;
 }
 
 p{
@@ -47,7 +58,7 @@ p{
     font-size: 3rem;
     color: white !important;
     font-weight: bold !important;
-    margin-top: -1.25rem !important;
+    margin-top: -2rem !important;
 }
 
 .yellow{
@@ -75,6 +86,7 @@ p{
 .email-text{
     font-size: 2rem;
     color: #FFCC54;
+    text-decoration: underline;
 }
 
 .center-container{
@@ -85,8 +97,12 @@ p{
 }
 
 .main-image{
-    max-width: 80%;
-    margin-left: 20%;
+    max-width: 100%;
+}
+
+.button{
+    border-radius: 10px !important;
+    border-width: 3px !important;
 }
 
 .is-warning{
@@ -103,9 +119,11 @@ html{
 }
 
 .email-input{
+    border-radius: 10px !important;
     background-color: rgba(255,255,255,0.1) !important;
     border-color: rgba(255,255,255,0.1) !important;
     color: white !important;
+    width: 80% !important;
 }
 
 .email-input::placeholder{
@@ -114,4 +132,13 @@ html{
 
 .herobody{
     overflow: hidden !important;
+}
+
+.road-margin{
+    max-width: 70%;
+    margin-left: 15%;
+}
+
+.paragraph{
+    margin-right: 6rem !important;
 }

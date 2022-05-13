@@ -7,7 +7,7 @@ function BulmaTimeline(){
             <header class="timeline-header">
                 <span class="tag is-medium is-warning">Start</span>
             </header>
-            <div class="timeline-item">
+            <div class="timeline-item is-achived">
                 <div class="timeline-marker is-warning is-icon">
                 <i class="fa fa-check fa-lg"></i>
                 </div>

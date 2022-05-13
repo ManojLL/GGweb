@@ -15,13 +15,13 @@ function TeamCard(props){
                 <p>{props.intro}</p>
                 <div className="my-4">
                     <a href={props.discord}><span className="icon white link m-2">
-                        <li class="fab fa-discord fa-2x"></li>
+                        <li class="fab fa-discord fa-lg"></li>
                     </span></a>
                     <a href={props.twitter}><span className="icon white link m-2">
-                        <li class="fab fa-twitter fa-2x"></li>
+                        <li class="fab fa-twitter fa-lg"></li>
                     </span></a>
                     <a href={props.linkedin}><span className="icon white link m-2">
-                        <li class="fab fa-linkedin fa-2x"></li>
+                        <li class="fab fa-linkedin fa-lg"></li> {/* fa-2x */}
                     </span></a>
                 </div>
             </div>   

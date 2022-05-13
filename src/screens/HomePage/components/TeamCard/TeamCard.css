@@ -1,5 +1,6 @@
 .teamcard{
     margin: 5rem;
+    margin-bottom: 2rem !important;
     transition: 0.5s;
 }
 
