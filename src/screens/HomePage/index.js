@@ -7,6 +7,7 @@ import PartnerCard from "./components/PartnerCard/PartnerCard";
 import BulmaTimeline from "./components/Timeline/BulmaTimeline";
 import TeamSection from "./components/TeamCard/TeamSection";
 import RaritySection from "./components/Rarity/RaritySection";
+import TimelineSection from "./components/Timeline/Timeline";
 import FAQnew from "./components/FAQ/FAQnew";
 import giraffe from '../../images/Jimmy.png';
 import { Container } from "@material-ui/core";
@@ -110,7 +111,7 @@ function HomePage() {
             <p className="subtitle">FIRST GEN COLLECTION</p>
             <p className="title-res yellow">Roadmap</p>
             <div className="has-text-left road-margin">
-              <BulmaTimeline/>
+              <TimelineSection/>
             </div>
           </div>
         </div>

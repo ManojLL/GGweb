@@ -1,0 +1,16 @@
+.milestone{
+    font-weight: bold;
+}
+
+.achived{
+    color: #FFCC54;
+}
+
+
+.timeline .timeline-item::before{
+    width: 2px !important;
+}
+
+.timeline .timeline-item.is-achived::before{
+    background-color: #FFCC54 !important;
+}
