@@ -11,16 +11,16 @@ function Footer(){
 
                     <div className="has-text-left has-text-centered-mobile mt-6">
                         <a className="icon white link mr-6">
-                            <li class="fab fa-twitter fa-2x"></li>
+                            <li className="fab fa-twitter fa-2x"></li>
                         </a>
                         <a className="icon white link mr-6">
-                            <li class="fab fa-instagram fa-2x"></li>
+                            <li className="fab fa-instagram fa-2x"></li>
                         </a>
                         <a className="icon white link mr-6">
-                            <li class="fab fa-discord fa-2x"></li>
+                            <li className="fab fa-discord fa-2x"></li>
                         </a>
                         <a className="icon white link">
-                            <li class="fab fa-facebook fa-2x"></li>
+                            <li className="fab fa-facebook fa-2x"></li>
                         </a>
                     </div>
                 </div>

@@ -3,9 +3,9 @@ import "./Timeline.css";
 
 const TimelineSection = () => {
   return (
-    <ul class="timeline-list">
+    <ul className="timeline-list">
       <li className="timeline-block-active">
-        <div class="timeline-content">
+        <div className="timeline-content">
           <h3 className="title is-4 timeline-heading">Pre-Mint</h3>
           <p className="timeline-description">
             The Community is #1 for us here at Goofy Giraffes. To satisfy our
@@ -16,7 +16,7 @@ const TimelineSection = () => {
         </div>
       </li>
       <li className="timeline-block-not-active">
-        <div class="content">
+        <div className="content">
           <h3 className="title is-4 timeline-heading">Mint</h3>
           <p className="timeline-description">
             Building a community of like-minded individuals is what ‘Goofy
@@ -28,7 +28,7 @@ const TimelineSection = () => {
         </div>
       </li>
       <li className="timeline-block-not-active">
-        <div class="content">
+        <div className="content">
           <h3 className="title is-4 timeline-heading">25% Sold</h3>
           <p className="timeline-description">
             Announcing the First Generation Holders and start NFT giveaways on
@@ -37,7 +37,7 @@ const TimelineSection = () => {
         </div>
       </li>
       <li className="timeline-block-not-active">
-        <div class="content">
+        <div className="content">
           <h3 className="title is-4 timeline-heading">50% Sold</h3>
           <p className="timeline-description">
             Providing our community with a steady flow of much anticipated
@@ -47,7 +47,7 @@ const TimelineSection = () => {
         </div>
       </li>
       <li className="timeline-block-not-active">
-        <div class="content">
+        <div className="content">
           <h3 className="title is-4 timeline-heading">75% Sold</h3>
           <p className="timeline-description">
             Wearables and Merch Store. Exclusive wearables and merch will be
@@ -56,7 +56,7 @@ const TimelineSection = () => {
         </div>
       </li>
       <li className="timeline-block-not-active">
-        <div class="content">
+        <div className="content">
           <h3 className="title is-4 timeline-heading">100% Sold</h3>
           <p className="timeline-description">
             Why reinvent the wheel when perfectly good ones exist already? We
@@ -67,7 +67,7 @@ const TimelineSection = () => {
         </div>
       </li>
       <li className="timeline-block-not-active">
-        <div class="content">
+        <div className="content">
           <h3 className="title is-4 timeline-heading">Post-Mint</h3>
           <p className="timeline-description">
             Stake your NFTs of selected projects with us to obtain the liquidity
