@@ -7,6 +7,7 @@ import PartnerCard from "./components/PartnerCard/PartnerCard";
 import BulmaTimeline from "./components/Timeline/BulmaTimeline";
 import TeamSection from "./components/TeamCard/TeamSection";
 import RaritySection from "./components/Rarity/RaritySection";
+import TimelineSection from "./components/Timeline/Timeline";
 import FAQnew from "./components/FAQ/FAQnew";
 import giraffe from '../../images/Jimmy.png';
 import { Container } from "@material-ui/core";
@@ -38,16 +39,16 @@ function HomePage() {
                     <div className="columns mt-4">
                       <div className="column is-4">
                         <a className="button is-warning has-text-weight-bold p-5 px-6">
-                          <span class="icon">
-                            <i class="fab fa-discord"></i>
+                          <span className="icon">
+                            <i className="fab fa-discord"></i>
                           </span>
                           <span>Discord</span>
                         </a>
                       </div>
                       <div className="column">
                         <a className="button is-white is-outlined has-text-weight-bold p-5 px-6">
-                          <span class="icon">
-                            <i class="fab fa-twitter"></i>
+                          <span className="icon">
+                            <i className="fab fa-twitter"></i>
                           </span>
                           <span>Twitter</span>
                         </a>
@@ -58,7 +59,7 @@ function HomePage() {
               </div>
               <Fade right>
                 <div className="column is-half">
-                    <figure class="image"> {/*animate__animated animate__pulse animate__slower animate__infinite*/}
+                    <figure className="image"> {/*animate__animated animate__pulse animate__slower animate__infinite*/}
                       <img className="main-image" src={giraffe}/>
                     </figure>
                 </div>
@@ -89,9 +90,9 @@ function HomePage() {
                 </Fade>
               </div>
               <div className="column is-half">
-                <div class="card">
-                  <div class="card-image">
-                    {/* <figure class="image is-3by4">
+                <div className="card">
+                  <div className="card-image">
+                    {/* <figure className="image is-3by4">
                       <img src="https://media2.giphy.com/media/MdSVo8YEqmm2rxm5ME/200.gif" alt="Placeholder image"/>
                     </figure> */}
                     <ScrollImage/>
@@ -110,7 +111,7 @@ function HomePage() {
             <p className="subtitle">FIRST GEN COLLECTION</p>
             <p className="title-res yellow">Roadmap</p>
             <div className="has-text-left road-margin">
-              <BulmaTimeline/>
+              <TimelineSection/>
             </div>
           </div>
         </div>
@@ -176,7 +177,7 @@ function HomePage() {
                 <div className="columns is-vcentered mt-4">
                   <div className="column is-1 has-text-left has-text-centered-mobile">
                     <div className="icon yellow m-4">
-                      <i class="fa fa-envelope fa-3x"></i>  {/*fa-lg*/}
+                      <i className="fa fa-envelope fa-3x"></i>  {/*fa-lg*/}
                     </div>
                   </div>
                   <div className="column has-text-left has-text-centered-mobile">
@@ -192,7 +193,7 @@ function HomePage() {
                       <div className="columns">
                         <div className="column is-2">
                           <div className="icon ml-3">
-                            <i class="fa fa-envelope"></i> 
+                            <i className="fa fa-envelope"></i> 
                           </div>
                         </div>
                         <div className="column">
@@ -209,12 +210,12 @@ function HomePage() {
                 <p className="subtitle">SUBSCRIBE FOR THE GG LATEST NEWS</p>
                 <p className="title-res">Newsletter</p>
 
-                <div class="field is-grouped mt-6">
-                  <p class="control is-expanded">
-                    <input class="input email-input" type="text" placeholder="Your e-mail address"/>
+                <div className="field is-grouped mt-6">
+                  <p className="control is-expanded">
+                    <input className="input email-input" type="text" placeholder="Your e-mail address"/>
                   </p>
-                  <p class="control">
-                    <a class="button is-warning has-text-weight-bold px-4">
+                  <p className="control">
+                    <a className="button is-warning has-text-weight-bold px-4">
                       Submit
                     </a>
                   </p>

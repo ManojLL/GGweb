@@ -7,10 +7,10 @@ function NavBar(){
         <nav className="navbar is-black p-4" role="navigation" aria-label="main navigation">
             <div className="container center-container">
                 <div className="navbar-brand">
-                    <a class="navbar-item" href="#">
+                    <a className="navbar-item" href="#">
                         <img src={logo} width="120" height="37"/>
                     </a>
-                    <a role="button" class="navbar-burger" id="nav-toggle" aria-label="menu" aria-expanded="false" data-target="nav-menu">
+                    <a role="button" className="navbar-burger" id="nav-toggle" aria-label="menu" aria-expanded="false" data-target="nav-menu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>

@@ -1,72 +1,92 @@
 import React from "react";
-import './Timeline.css';
+import "./Timeline.css";
 
-import {
-  Timeline,
-  Container,
-  YearContent,
-  BodyContent,
-  Section,
-  Description,
- } from 'vertical-timeline-component-react';
- 
- const TimelineSection = () => {
-	const customTheme = {
-		yearColor: '#405b73',
-		lineColor: '#d0cdc4',
-		dotColor: '#262626',
-		borderDotColor: '#d0cdc4',
-		titleColor: '#ffffff',
-		subtitleColor: '#bf9765',
-		textColor: '#262626',
-	};
-
-	return (
-		<Timeline theme={customTheme} dateFormat='full'>
-			<Container>
-				<YearContent startDate='2022'/>
-				<BodyContent>
-					<Section title='Pre-Mint'>
-						<Description text='For us Art & Community comes first. We believe that if the underlying art (NFT) 
-                  is not desirable enough then there’s no value to anything built around it. Further, we have been 
-                  working behind the scenes to build an organic community and we are proud of where our community stands today.' />
-					</Section>
-
-					<Section title='Mint'>
-						<Description text='We have a lot of plans for Cabu Cats and at the core of it will lie the development of Intellectual Property. 
-                  We plan to build everything from Metaverse ready avatars to toys. Cabu Cats have been conceptualised to cater to 
-                  a larger spectrum of audience, with personal expression being at the forefront of our creative process.' />
-					</Section>
-
-               <Section title='10% Sold'>
-						<Description text='Announcing the First Generation Holders and start NFT giveaways on daily basis to all our holders for upto total of 10 NFTs.' />
-					</Section>
-
-               <Section title='25% Sold'>
-						<Description text='ETH and NFT Giveaway for the Top Holders. A Giveaway will take place where we will give away a 
-                  Goofy within 0-100 rarity for one of the top holders in the collection!' />
-					</Section>
-
-               <Section title='50% Sold'>
-						<Description text='Wearables and Merch Store. Exclusive wearables and merch will be given to everyone who holds an NFT from a specific launch.' />
-					</Section>
-
-               <Section title='75% Sold'>
-						<Description text='Wearables and Merch Store. Exclusive wearables and merch will be given to everyone who holds an NFT from a specific launch.' />
-					</Section>
-
-               <Section title='100% Sold'>
-						<Description text='Airdropping US$25,000 to the Top 10 Goofy Giraffe holders.' />
-					</Section>
-
-               <Section title='Post-Mint'>
-						<Description text='Launching our own F2P Discord game for the members to grind and earn GGC (game based currency) 
-                  which enables the users to purchase Merch from our store.  ' />
-					</Section>
-				</BodyContent>
-			</Container>
-		</Timeline>
-	);
+const TimelineSection = () => {
+  return (
+    <ul className="timeline-list">
+      <li className="timeline-block-active">
+        <div className="timeline-content">
+          <h3 className="title is-4 timeline-heading">Pre-Mint</h3>
+          <p className="timeline-description">
+            The Community is #1 for us here at Goofy Giraffes. To satisfy our
+            community, we understand that the artwork itself is not sufficient.
+            We are working towards expanding our community organically and we
+            are proud of where we are at today.
+          </p>
+        </div>
+      </li>
+      <li className="timeline-block-not-active">
+        <div className="content">
+          <h3 className="title is-4 timeline-heading">Mint</h3>
+          <p className="timeline-description">
+            Building a community of like-minded individuals is what ‘Goofy
+            Giraffes’ is all about. Having people who are equally interested in
+            NFTs as well as TV Shows is what we strive to achieve. The core of
+            the project revolves around the development of our artwork that has
+            traits of the characters you watch and adore.
+          </p>
+        </div>
+      </li>
+      <li className="timeline-block-not-active">
+        <div className="content">
+          <h3 className="title is-4 timeline-heading">25% Sold</h3>
+          <p className="timeline-description">
+            Announcing the First Generation Holders and start NFT giveaways on
+            daily basis to all our holders for upto total of 10 NFTs.
+          </p>
+        </div>
+      </li>
+      <li className="timeline-block-not-active">
+        <div className="content">
+          <h3 className="title is-4 timeline-heading">50% Sold</h3>
+          <p className="timeline-description">
+            Providing our community with a steady flow of much anticipated
+            Whitelists in other projects, available to our holders via our
+            website. (Announcement to be made soon)
+          </p>
+        </div>
+      </li>
+      <li className="timeline-block-not-active">
+        <div className="content">
+          <h3 className="title is-4 timeline-heading">75% Sold</h3>
+          <p className="timeline-description">
+            Wearables and Merch Store. Exclusive wearables and merch will be
+            given to everyone who holds an NFT from a specific launch.
+          </p>
+        </div>
+      </li>
+      <li className="timeline-block-not-active">
+        <div className="content">
+          <h3 className="title is-4 timeline-heading">100% Sold</h3>
+          <p className="timeline-description">
+            Why reinvent the wheel when perfectly good ones exist already? We
+            will partner with a top tier utility focused project to provide our
+            holders access to a full suite of alpha tools; ranging from sniping
+            tools, to private nodes, to top tier analytics.
+          </p>
+        </div>
+      </li>
+      <li className="timeline-block-not-active">
+        <div className="content">
+          <h3 className="title is-4 timeline-heading">Post-Mint</h3>
+          <p className="timeline-description">
+            Stake your NFTs of selected projects with us to obtain the liquidity
+            you need for a quick flip. The list of qualifying projects will be
+            announced, and updated weekly. Holders of Goofy Giraffes will be
+            able to stake their NFTs to obtain 50% of the current floor price in
+            ETH.
+            <br /> <br />
+            <span>
+              i.e.: If you own an NFT of a project which is eligible for
+              staking, and the floor price of that project is currently at 0.5
+              ETH, you will be eligible to obtain up to 0.25 ETH, to be paid
+              within a fixed period for 0% interest.
+            </span>
+          </p>
+        </div>
+      </li>
+    </ul>
+  );
 };
 
 export default TimelineSection;

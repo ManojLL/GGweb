@@ -11,7 +11,7 @@ function FAQ(){
                 </div>
                 <div className="column has-text-right">
                     <span className="icon mr-3">
-                        <li class="fa fa-angle-down fa-2x"></li>
+                        <li className="fa fa-angle-down fa-2x"></li>
                     </span>
                 </div>
             </div>

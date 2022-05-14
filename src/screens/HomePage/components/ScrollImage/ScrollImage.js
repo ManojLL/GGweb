@@ -3,8 +3,8 @@ import './ScrollImage.css'
 
 function ScrollImage(){
     return(
-        <div class="scrolling-image-container">
-            <div class="scrolling-image"></div>
+        <div className="scrolling-image-container">
+            <div className="scrolling-image"></div>
         </div>
     )
 }

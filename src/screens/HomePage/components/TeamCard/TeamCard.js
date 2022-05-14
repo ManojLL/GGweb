@@ -6,8 +6,8 @@ function TeamCard(props){
     return(
             <div className="teamcard">
                 <div className="icon-card">
-                    <figure class="image m-5">
-                        <img class="is-rounded" src={props.image}/>
+                    <figure className="image m-5">
+                        <img className="is-rounded" src={props.image}/>
                     </figure>
                 </div>
                 <p className="subtitle">{props.title}</p>
@@ -15,13 +15,13 @@ function TeamCard(props){
                 <p>{props.intro}</p>
                 <div className="my-4">
                     <a href={props.discord}><span className="icon white link m-2">
-                        <li class="fab fa-discord fa-lg"></li>
+                        <li className="fab fa-discord fa-lg"></li>
                     </span></a>
                     <a href={props.twitter}><span className="icon white link m-2">
-                        <li class="fab fa-twitter fa-lg"></li>
+                        <li className="fab fa-twitter fa-lg"></li>
                     </span></a>
                     <a href={props.linkedin}><span className="icon white link m-2">
-                        <li class="fab fa-linkedin fa-lg"></li> {/* fa-2x */}
+                        <li className="fab fa-linkedin fa-lg"></li> {/* fa-2x */}
                     </span></a>
                 </div>
             </div>   
