@@ -41,7 +41,7 @@
     height: 78%;
     position: absolute;
     bottom: 0;
-    top: 0;
+    top: 1rem;
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
     -webkit-animation: scaleVertical 3s 1s ease both 1;
