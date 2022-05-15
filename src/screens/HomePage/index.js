@@ -68,6 +68,19 @@ function HomePage() {
           </section>
         </div>
       </section>
+      
+      {/* partners section */}
+      <section className="hero" id="partners">
+        <div className="herobody">
+          <div className="container has-text-centered my-6 center-container">
+            <p className="subtitle">ITS NOT JUST US</p>
+            <p className="title-res yellow">Partners</p>
+            <div className="container">
+              <PartnerCard/>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* goofyverse section */}
       <section className="hero" id="goofyverse">
@@ -104,33 +117,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* roadmap secgtion */}
-      <section className="hero" id="roadmap">
-        <div className="herobody">
-          <div className="container has-text-centered my-6 center-container">
-            <p className="subtitle">FIRST GEN COLLECTION</p>
-            <p className="title-res yellow">Roadmap</p>
-            <div className="has-text-left road-margin">
-              <TimelineSection/>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* partners secgtion */}
-      <section className="hero" id="partners">
-        <div className="herobody">
-          <div className="container has-text-centered my-6 center-container">
-            <p className="subtitle">ITS NOT JUST US</p>
-            <p className="title-res yellow">Partners</p>
-            <div className="container">
-              <PartnerCard/>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* rarity secgtion */}
+      {/* rarity section */}
       <section className="hero" id="rarity">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
@@ -143,7 +130,20 @@ function HomePage() {
         </div>
       </section>
 
-      {/* team secgtion */}
+      {/* roadmap segtion */}
+      <section className="hero" id="roadmap">
+        <div className="herobody">
+          <div className="container has-text-centered my-6 center-container">
+            <p className="subtitle">FIRST GEN COLLECTION</p>
+            <p className="title-res yellow">Roadmap</p>
+            <div className="has-text-left road-margin">
+              <TimelineSection/>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* team section */}
       <section className="hero" id="team">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
@@ -158,7 +158,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* faq secgtion */}
+      {/* faq section */}
       <section className="hero" id="faq">
         <div className="herobody">
           <div className="container has-text-centered my-6 center-container">
