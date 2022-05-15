@@ -143,11 +143,11 @@ html{
 }
 
 .paragraph{
-    margin-right: 6rem !important;
+    margin-right: 6rem;
 }
 
 .paragraph-right{
-    padding-left: 6rem !important;
+    padding-left: 6rem;
 }
 
 .opacity{

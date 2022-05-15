@@ -6,3 +6,13 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
 }
+
+.logo-padding{
+    padding-left: 8% !important;
+    padding-right: 8% !important;
+}
+
+.vor-padding{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
