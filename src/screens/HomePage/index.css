@@ -26,6 +26,9 @@
     .email-input{
         max-width: none !important;
     }
+    .email-text{
+        font-size: 7vw !important;
+    }
   }
 
 .landing{
