@@ -16,6 +16,9 @@
     .paragraph{
         margin-right: 0rem !important;
     }
+    .paragraph-right{
+        padding-left: 0rem !important;
+    }
     .road-margin{
         max-width: 100% !important;
         margin-left: 0% !important;
@@ -141,4 +144,12 @@ html{
 
 .paragraph{
     margin-right: 6rem !important;
+}
+
+.paragraph-right{
+    padding-left: 6rem !important;
+}
+
+.opacity{
+    opacity: 0.5 !important;
 }

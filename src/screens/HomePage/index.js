@@ -34,7 +34,7 @@ function HomePage() {
                     <p className="main-two">Seven Kingdoms</p>
                   </Fade>
                   <Fade bottom>
-                    <p className="paragraph mt-4">Goofy Giraffes are a set of animals that mutated to have human-like traits from your favorite TV Show while still maintaining the appearance of a Giraffe. 
+                    <p className="paragraph opacity mt-4">Goofy Giraffes are a set of animals that mutated to have human-like traits from your favorite TV Show while still maintaining the appearance of a Giraffe. 
                     </p>
                     <div className="columns mt-4">
                       <div className="column is-4">

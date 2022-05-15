@@ -18,8 +18,8 @@ function PartnerCard(){
                         </div>
                     </div> 
                 </div>
-                <div className="column is-half p-6 has-text-left">
-                    <p>If you wish to partner up with us to create a positive impact to the community, feel free to reach out.</p>
+                <div className="column is-half has-text-left paragraph-right">
+                    <p className="">If you wish to partner up with us to create a positive impact to the community, feel free to reach out.</p>
                     <a className="button is-warning has-text-weight-bold mt-6">
                         <span>Contact us</span>
                     </a>
